@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>方大同 · 动画版</title>
+<style>
+
+/* 背景图 */
+body {
+  background-image: url("C:/Users/sanko/Pictures/微信图片_20260316170518_391_210.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+/* 内容 */
+.card {
+  background: rgba(255,255,255,0.9);
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 12px;
+
+
+  animation: comeup 1.2s ease-out;
+}
+
+/* 动画 */
+@keyframes comeup {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+</style>
+</head>
+
+<body>
+<div class="card">
+  <h1>方大同 Khalil Fong</h1>
+  <h2>华语R&B与灵魂乐</h2>
+  <p>代表作：Love Song、三人游、特别的人、爱爱爱</p >
+  <p>谢谢你用温柔的旋律陪伴我们的青春。</p >
+</div>
+</body>
+</html>
